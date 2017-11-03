@@ -12,7 +12,7 @@ public class HelloWorldTemplate
   }
 
   public final String NL = nl == null ? (System.getProperties().getProperty("line.separator")) : nl;
-  protected final String TEXT_1 = NL + " Hello, world!";
+  protected final String TEXT_1 = NL + "Hello, World!";
 
   public String generate(Object argument)
   {
