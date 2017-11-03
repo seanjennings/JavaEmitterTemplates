@@ -1,0 +1,8 @@
+{
+/* (non-javadoc)
+*  @see IGenerator#generate(Object)
+*/
+public String generate(Object argument) {
+		return "";
+	}
+}
