@@ -1,3 +1,3 @@
-<%@ jet package="hello" class="HelloWorldTemplate" %>
-
- Hello, world!
+<%@ jet package="hello" class="GreetingTemplate" skeleton="generator.skeleton" %>
+Hello, <%=argument%>!
+The current time is <%=new java.util.Date()%>.
